@@ -1,20 +1,20 @@
 import os
 #to create a dirctory
-#os.mkdir("E:/Aditi")
+#os.mkdir("E:/TY_10")
 print("String format",os.getcwd())
 print("Byte format",os.getcwdb())
 
 
 #to rename a directory
 #os.renames("file1.txt","new.txt")
-#os.renames("file.txt",'E:/Aditi')
+#os.renames("file.txt",'E:/TY_10')
 
 #to get current directory
 print("Current Directory",os.getcwd())
 os.chdir("E:/demo")
 
 #to get thr size of dir
-print(os.path.getsize("E:/Aditi"))
+print(os.path.getsize("E:/TY_10"))
 
 #to list out file in directory
 print("Files in current directory",os.listdir(os.getcwd()))
